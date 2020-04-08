@@ -1,0 +1,30 @@
+{
+  "name": "webrtc_conferencing",
+  "version": "1.0.0",
+  "description": "Video Conferencing using WebRTC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo index.js:bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imrulkk69/WebRTC_Conferencing.git"
+  },
+  "keywords": [
+    "WebRTC",
+    "Conferencing"
+  ],
+  "author": "Imrul Kais Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imrulkk69/WebRTC_Conferencing/issues"
+  },
+  "homepage": "https://github.com/imrulkk69/WebRTC_Conferencing#readme",
+  "dependencies": {
+    "simple-peer": "^9.6.2"
+  },
+  "devDependencies": {
+    "budo": "^11.6.3"
+  }
+}
